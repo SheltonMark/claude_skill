@@ -13,6 +13,7 @@ Personal collection of Claude Code skills and configurations.
 | composition-patterns | React component scaling and prop patterns | Vercel Labs |
 | react-native-skills | 16 rules for mobile app development | Vercel Labs |
 | vercel-deploy-claimable | Instant deployment to Vercel from Claude | Vercel Labs |
+| notebooklm-skill | Generate AI podcasts using Google NotebookLM | PleasePrompto |
 
 ## Installation on New Computer
 
@@ -79,7 +80,8 @@ claude_skill/
 │   ├── web-design-guidelines/
 │   ├── composition-patterns/
 │   ├── react-native-skills/
-│   └── vercel-deploy-claimable/
+│   ├── vercel-deploy-claimable/
+│   └── notebooklm-skill/
 ├── mcp-config/
 │   └── claude_desktop_config.json
 └── README.md

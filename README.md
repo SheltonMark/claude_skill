@@ -4,10 +4,15 @@ Personal collection of Claude Code skills and configurations.
 
 ## Skills
 
-| Skill | Description |
-|-------|-------------|
-| planning-with-files | 3-file planning pattern (task_plan.md, findings.md, progress.md) |
-| ui-ux-pro-max | UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings |
+| Skill | Description | Source |
+|-------|-------------|--------|
+| planning-with-files | 3-file planning pattern (task_plan.md, findings.md, progress.md) | OthmanAdi |
+| ui-ux-pro-max | UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings | Custom |
+| react-best-practices | 40+ React/Next.js performance optimization rules | Vercel Labs |
+| web-design-guidelines | 100+ accessibility, performance, and UX rules | Vercel Labs |
+| composition-patterns | React component scaling and prop patterns | Vercel Labs |
+| react-native-skills | 16 rules for mobile app development | Vercel Labs |
+| vercel-deploy-claimable | Instant deployment to Vercel from Claude | Vercel Labs |
 
 ## Installation on New Computer
 
@@ -69,7 +74,12 @@ Then copy `mcp-config/claude_desktop_config.json` to:
 claude_skill/
 ├── skills/
 │   ├── planning-with-files/
-│   └── ui-ux-pro-max/
+│   ├── ui-ux-pro-max/
+│   ├── react-best-practices/
+│   ├── web-design-guidelines/
+│   ├── composition-patterns/
+│   ├── react-native-skills/
+│   └── vercel-deploy-claimable/
 ├── mcp-config/
 │   └── claude_desktop_config.json
 └── README.md

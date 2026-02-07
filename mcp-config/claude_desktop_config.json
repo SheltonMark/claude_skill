@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ssh-compile": {
+      "command": "npx",
+      "args": [
+        "@aiondadotcom/mcp-ssh"
+      ]
+    },
+    "markitdown": {
+      "command": "C:\\Users\\95417\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "args": [
+        "-m",
+        "markitdown_mcp"
+      ]
+    }
+  }
+}

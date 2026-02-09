@@ -14,6 +14,7 @@ Personal collection of Claude Code skills and configurations.
 | react-native-skills | 16 rules for mobile app development | Vercel Labs |
 | vercel-deploy-claimable | Instant deployment to Vercel from Claude | Vercel Labs |
 | notebooklm-skill | Generate AI podcasts using Google NotebookLM | PleasePrompto |
+| find-skills | Discover and install agent skills via `npx skills find` | Vercel Labs |
 
 ## Installation on New Computer
 
@@ -66,6 +67,7 @@ Then copy `mcp-config/claude_desktop_config.json` to:
 |------|------------|
 | planning-with-files | `/plan` |
 | ui-ux-pro-max | Describe UI/UX needs directly |
+| find-skills | Ask "find a skill for X" or "is there a skill that can..." |
 | ralph-wiggum | `/ralph-loop`, `/cancel-ralph` |
 | markitdown (MCP) | Available in Claude Desktop |
 
@@ -81,7 +83,8 @@ claude_skill/
 │   ├── composition-patterns/
 │   ├── react-native-skills/
 │   ├── vercel-deploy-claimable/
-│   └── notebooklm-skill/
+│   ├── notebooklm-skill/
+│   └── find-skills/
 ├── mcp-config/
 │   └── claude_desktop_config.json
 └── README.md
